@@ -14,7 +14,7 @@ export default function VideoRoomPage({params}) {
   return (
     <LiveKitRoom
       token={params.key}
-      serverUrl="wss://290f-103-23-29-123.ngrok-free.app"
+      serverUrl="wss://livekit.pretutors.com"
       connect={true}
       data-lk-theme="default"
       style={{ height: '100vh' }}
